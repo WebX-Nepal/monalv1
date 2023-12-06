@@ -58,9 +58,8 @@ const Second = () => {
               </ul>
               <div className="flex-menu">
                 <ul className={toggle === 1 ? "show-content" : "first-list" }>
-                  <div className="flex gap-4 justify-around">
+                  <div className="grids">
 
-                    <div  className="w-[50%] h-[60vh] overflow-auto  scrolll   ">
                     <li>
                       <div className="single-item">
                         <p> Caramel Latte</p>
@@ -167,10 +166,8 @@ const Second = () => {
                       </div>
                     </li>
                   </div>
-                  <div className="w-[45%] ">
-                              <img src={coffee} alt="coffee" className=" rounded-3xl git"/>
-                  </div>
-               </div>
+                  
+               
                 </ul>
 
                 <ul className={toggle === 2 ? "show-content" : "first-list"}>
